@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #eef2f3;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.container {
+    width: 420px;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#chatbox {
+    height: 350px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    background: #fafafa;
+}
+
+.user-msg, .bot-msg {
+    animation: fadeIn 0.25s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(4px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+.user-msg {
+    text-align: right;
+    background: #cfe4ff;
+    padding: 8px 10px;
+    margin: 6px;
+    border-radius: 8px;
+    display: inline-block;
+    max-width: 80%;
+}
+
+.bot-msg {
+    text-align: left;
+    background: #e8e8e8;
+    padding: 8px 10px;
+    margin: 6px;
+    border-radius: 8px;
+    display: inline-block;
+    max-width: 80%;
+}
+
+.input-area {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 15px;
+    background: #0078ff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background 0.2s;
+}
+
+button:hover {
+    background: #005fcc;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
