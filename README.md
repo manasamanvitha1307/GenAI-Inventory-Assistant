@@ -35,16 +35,20 @@ A full-stack GenAI Assistant that utilizes Retrieval-Augmented Generation (RAG) 
 **Bash**
 git clone https://github.com/manasamanvitha1307/GenAI-Inventory-Assistant
 cd Inventory-Assistant-App
+
 **2.Install Dependencies:**
 **Bash** 
 pip install -r requirements.txt
+
 **3.Set Environment Variables:**
 Create a .env file in the root directory:
 **Plaintext**
 AI_API_KEY=your_groq_api_key_here
+
 **4.Run the Application:**
 **Bash**
 python app.py
+
 **5.Access the Dashboard:**
 Open http://127.0.0.1:5000 in your browser.
 
