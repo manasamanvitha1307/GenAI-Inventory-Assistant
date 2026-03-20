@@ -31,6 +31,7 @@ A full-stack GenAI Assistant that utilizes Retrieval-Augmented Generation (RAG) 
 
 **🚀Quick Start**
 **Prerequisites:** Python 3.9+, Groq API Key.
+
 **1.Clone the Repository:**
 **Bash**
 git clone https://github.com/manasamanvitha1307/GenAI-Inventory-Assistant
