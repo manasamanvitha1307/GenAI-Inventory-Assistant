@@ -54,8 +54,7 @@ python app.py
 Open http://127.0.0.1:5000 in your browser.
 
 **🎥 Demo Link**
-**Recorded Demo:** [Insert your YouTube/Vimeo/Google Drive link here]
-**Media Disclosure:** This demo uses [List any tools used, e.g., OBS for recording, ElevenLabs for voiceover, or "No AI media tools used"].
+**Recorded Demo:** [https://drive.google.com/file/d/1Xtnjnk5Xw_5VbHUoMPNyhU4EGZh2GMJW/view?usp=vids_web]
 
 **👥 Team Members**
-Manasa Manvitha MUKKA - Lead Developer & AI Architect (ECE Paris)
+Manasa Manvitha MUKKA - (ECE Paris)
